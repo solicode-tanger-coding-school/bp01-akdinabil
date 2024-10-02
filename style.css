@@ -55,4 +55,167 @@ tr:nth-child(even) {
 h3{
     color: #3ef31a;
 }
+/* ****************************************************************** */
+#addnewlike {
+    background-color: #007bff; 
+    color: white;             
+    border: none;             
+    border-radius: 5px;      
+    padding: 10px 15px;      
+    font-size: 16px;         
+    cursor: pointer;           
+    transition: background-color 0.3s; 
+}
 
+#addnewlike:hover {
+    background-color: #0056b3; 
+}
+
+
+#marocco {
+    font-size: 20px;            
+    color: #333;                
+    background-color: #f0f0f0;   
+    padding: 10px;               
+    border: 1px solid #ccc;      
+    border-radius: 5px;         
+    text-align: center;          
+    margin-top: 10px;           
+    transition: color 0.3s;      
+}
+
+#marocco:hover {
+    color: #007bff;            
+}
+/* ************************** */
+
+#addnewlike1 {
+    background-color: #007bff; 
+    color: white;            
+    border: none;             
+    border-radius: 5px;       
+    padding: 10px 15px;      
+    font-size: 16px;         
+    cursor: pointer;          
+    transition: background-color 0.3s; 
+}
+
+#addnewlike1:hover {
+    background-color: #0056b3; 
+}
+
+
+#Algeria {
+    font-size: 20px;            
+    color: #333;               
+    background-color: #f0f0f0;   
+    padding: 10px;              
+    border: 1px solid #ccc;    
+    border-radius: 5px;         
+    text-align: center;         
+    margin-top: 10px;           
+    transition: color 0.3s;      
+}
+
+#Algeria:hover {
+    color: #007bff;             
+}
+/* **************************8 */
+
+#addnewlike2 {
+    background-color: #007bff; 
+    color: white;             
+    border: none;             
+    border-radius: 5px;      
+    padding: 10px 15px;       
+    font-size: 16px;         
+    cursor: pointer;         
+    transition: background-color 0.3s;
+}
+
+#addnewlike2:hover {
+    background-color: #0056b3;
+}
+
+
+#Tunisia {
+    font-size: 20px;           
+    color: #333;                
+    background-color: #f0f0f0;   
+    padding: 10px;               
+    border: 1px solid #ccc;      
+    border-radius: 5px;         
+    text-align: center;         
+    margin-top: 10px;            
+    transition: color 0.3s;      
+}
+
+#Tunisia:hover {
+    color: #007bff;            
+}
+/* ********************************* */
+
+#addnewlike3 {
+    background-color: #007bff; 
+    color: white;             
+    border: none;              
+    border-radius: 5px;     
+    padding: 10px 15px;       
+    font-size: 16px;         
+    cursor: pointer;           
+    transition: background-color 0.3s; 
+}
+
+#addnewlike3:hover {
+    background-color: #0056b3; 
+}
+
+
+#Egypt {
+    font-size: 20px;            
+    color: #333;                 
+    background-color: #f0f0f0;  
+    padding: 10px;              
+    border: 1px solid #ccc;    
+    border-radius: 5px;         
+    text-align: center;        
+    margin-top: 10px;          
+    transition: color 0.3s;      
+}
+
+#Egypt:hover {
+    color: #007bff;              
+}
+/* ************************************************************* */
+
+#addnewlike4 {
+    background-color: #007bff; 
+    color: white;            
+    border: none;            
+    border-radius: 5px;     
+    padding: 10px 15px;       
+    font-size: 16px;        
+    cursor: pointer;           
+    transition: background-color 0.3s;
+}
+
+#addnewlike4:hover {
+    background-color: #0056b3; 
+}
+
+
+#Mauritania {
+    font-size: 20px;             
+    color: #333;                
+    background-color: #f0f0f0;   
+    padding: 10px;             
+    border: 1px solid #ccc;     
+    border-radius: 5px;         
+    text-align: center;         
+    margin-top: 10px;           
+    transition: color 0.3s;     
+}
+
+#Mauritania:hover {
+    color: #007bff;            
+}
