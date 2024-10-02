@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <section>
+<img src="beautiful-view-biggest-mosque-casablanca-morocco-hassan-ii-mosque (1).jpg" alt="Marocco" width="500">
+<h3>marocco</h3>
+<p>Morocco is a country in North Africa, known for its diverse landscapes and rich culture.</p>
+<ul>
+    <li>barber</li>
+    <li>maroccan cuisine</li>
+    <li>desert landscapes</li>
+</ul>
+<table>
+    <tr>
+        <th>city</th>
+        <th>population</th>
+        <th>main attraction</th>
+    </tr>
+    <tr>
+        <td>rabat</td>
+        <td>2 million</td>
+        <td>hassan tower</td>
+    </tr>
+    <tr>
+       <td>casablanca</td>
+       <td>4 million</td>
+      <td>hassan 2 mosque</td>
+    </tr>
+    <tr>
+        <td>marrakech</td>
+      <td>1 million</td>
+       <td>Jemaa elfana</td>
+    </tr>
+</table>
+<button  id="addnewlike" onclick="addnewlike()">like</button>
+<p id="marocco">0 like</p>
+    </section>
+    <section>
+        <img src="pexels-mostafa-ft-shots-98391-10690040.jpg" alt="Algeria" width="500">
+        <h3>Algeria</h3>
+        <p>Algeria is the largest country in Africa, known for its stunning landscapes, rich history, and diverse cultures.</p>
+        <ul>
+            <li>Algerian cuisine</li>
+            <li>Historic sites</li>
+            <li>Sahara Desert</li>
+        </ul>
+        <table>
+            <tr>
+                <th>City</th>
+                <th>Population</th>
+                <th>Main Attraction</th>
+            </tr>
+            <tr>
+                <td>Algiers</td>
+                <td>3.9 million</td>
+                <td>Kashba of Algiers</td>
+            </tr>
+            <tr>
+                <td>Oran</td>
+                <td>1.5 million</td>
+                <td>Santa Cruz Fortress</td>
+            </tr>
+            <tr>
+                <td>Constantine</td>
+                <td>450,000</td>
+                <td>Bridge of Sidi M’Cid</td>
+            </tr>
+        </table>
+        <button>like</button>
+        <p>0 like</p>
+    </section>
+    <section>
+        <img src="pexels-mohamed-amir-sahli-154798633-15965321.jpg" alt="Tunisia" width="500">
+        <h3>Tunisia</h3>
+        <p>Tunisia is a North African country known for its Mediterranean beaches, ancient ruins, and rich cultural heritage.</p>
+        <ul>
+            <li>Tunisian cuisine</li>
+            <li>Historic sites</li>
+            <li>Sahara Desert</li>
+        </ul>
+        <table>
+            <tr>
+                <th>City</th>
+                <th>Population</th>
+                <th>Main Attraction</th>
+            </tr>
+            <tr>
+                <td>Tunis</td>
+                <td>2.7 million</td>
+                <td>Medina of Tunis</td>
+            </tr>
+            <tr>
+                <td>Sfax</td>
+                <td>300,000</td>
+                <td>Kasbah of Sfax</td>
+            </tr>
+            <tr>
+                <td>Carpet</td>
+                <td>100,000</td>
+                <td>Carthage Ruins</td>
+            </tr>
+        </table>
+        <button>like</button>
+        <p>0 like</p>
+    </section>
+    <section>
+        <img src="pexels-the-world-hopper-929714-1851481.jpg" alt="Egypt" width="500">
+        <h3>Egypt</h3>
+        <p>Egypt is a country in Northeast Africa, known for its ancient civilization, iconic pyramids, and rich history along the Nile River.</p>
+        <ul>
+            <li>Egyptian cuisine</li>
+            <li>Pyramids of Giza</li>
+            <li>Nile River cruises</li>
+        </ul>
+        <table>
+            <tr>
+                <th>City</th>
+                <th>Population</th>
+                <th>Main Attraction</th>
+            </tr>
+            <tr>
+                <td>Cairo</td>
+                <td>9.5 million</td>
+                <td>Pyramids of Giza</td>
+            </tr>
+            <tr>
+                <td>Alexandria</td>
+                <td>5.5 million</td>
+                <td>Library of Alexandria</td>
+            </tr>
+            <tr>
+                <td>Luxor</td>
+                <td>500,000</td>
+                <td>Valley of the Kings</td>
+            </tr>
+        </table>
+        <button>like</button>
+        <p>0 like</p>
+    </section>
+    <section>
+        <img src="pexels-el-moustapha-ivekou-125802866-9998195.jpg" alt="Mauritania" width="500">
+        <h3>Mauritania</h3>
+        <p>Mauritania is a country in Northwest Africa, known for its vast deserts, rich cultural heritage, and unique landscapes.</p>
+        <ul>
+            <li>Mauritanian cuisine</li>
+            <li>Historic sites</li>
+            <li>Nouakchott beaches</li>
+        </ul>
+        <table>
+            <tr>
+                <th>City</th>
+                <th>Population</th>
+                <th>Main Attraction</th>
+            </tr>
+            <tr>
+                <td>Nouakchott</td>
+                <td>1 million</td>
+                <td>Port of Nouakchott</td>
+            </tr>
+            <tr>
+                <td>Nouadhibou</td>
+                <td>100,000</td>
+                <td>Richat Structure</td>
+            </tr>
+            <tr>
+                <td>Atar</td>
+                <td>35,000</td>
+                <td>Adrar Region</td>
+            </tr>
+        </table>
+        <button>like</button>
+        <p>0 like</p>
+    </section>
+    <script>
+    let compteur =0;
+    function addnewlike(){
+        compteur++;
+        document.getElementById("marocco").innerText = `${compteur} like${compteur!== 1? 's' : ''}`;  
+    }
+    // ********
+   
+
+    </script>
+ 
+    
+   
+    
+    
+    
+    
+</body>
+</html>
