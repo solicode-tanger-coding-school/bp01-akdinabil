@@ -73,8 +73,8 @@
                 <td>Bridge of Sidi M’Cid</td>
             </tr>
         </table>
-        <button>like</button>
-        <p>0 like</p>
+        <button id="addnewlike1" onclick="addnewlike1()">like</button>
+        <p id="Algeria">0 like</p>
     </section>
     <section>
         <img src="pexels-mohamed-amir-sahli-154798633-15965321.jpg" alt="Tunisia" width="500">
@@ -107,8 +107,8 @@
                 <td>Carthage Ruins</td>
             </tr>
         </table>
-        <button>like</button>
-        <p>0 like</p>
+        <button id="addnewlike2" onclick="addnewlike2()">like</button>
+        <p id="Tunisia">0 like</p>
     </section>
     <section>
         <img src="pexels-the-world-hopper-929714-1851481.jpg" alt="Egypt" width="500">
@@ -141,8 +141,8 @@
                 <td>Valley of the Kings</td>
             </tr>
         </table>
-        <button>like</button>
-        <p>0 like</p>
+        <button id="addnewlike3" onclick="addnewlike3()">like</button>
+        <p id="Egypt">0 like</p>
     </section>
     <section>
         <img src="pexels-el-moustapha-ivekou-125802866-9998195.jpg" alt="Mauritania" width="500">
@@ -175,8 +175,8 @@
                 <td>Adrar Region</td>
             </tr>
         </table>
-        <button>like</button>
-        <p>0 like</p>
+        <button id="addnewlike4" onclick="addnewlike4()">like</button>
+        <p id="Mauritania">0 like</p>
     </section>
     <script>
     let compteur =0;
@@ -185,6 +185,27 @@
         document.getElementById("marocco").innerText = `${compteur} like${compteur!== 1? 's' : ''}`;  
     }
     // ********
+    let compteur1 =0;
+    function addnewlike1(){
+        compteur1++;
+        document.getElementById("Algeria").innerText = `${compteur1} like${compteur1!== 1? 's' : ''}`;  
+    }
+    let compteur2=0;
+    function addnewlike2(){
+        compteur2++;
+        document.getElementById("Tunisia").innerText = `${compteur2} like${compteur2!== 1? 's' : ''}`;  
+    }
+    let compteur3=0;
+    function addnewlike3(){
+        compteur3++;
+        document.getElementById("Egypt").innerText = `${compteur3} like${compteur3!== 1? 's' : ''}`;  
+    }
+    let compteur4=0;
+    function addnewlike4(){
+        compteur4++;
+        document.getElementById("Mauritania").innerText = `${compteur4} like${compteur4!== 1? 's' : ''}`;  
+    }
     </script>
+    
 </body>
 </html>
